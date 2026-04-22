@@ -11,8 +11,8 @@ export default async function handler(req, res) {
 
     // Example codes (REPLACE with DB later)
     const codes = {
-        "FREE100": { itemId: "Coins100", used: false },
-        "HAT2026": { itemId: "CoolHat", used: false }
+        "Penis": { itemId: "LBAAD.", used: false },
+        "Test": { itemId: "CoolHat", used: true }
     };
 
     if (!codes[code] || codes[code].used) {
